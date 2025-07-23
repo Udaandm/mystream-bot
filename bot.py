@@ -5,7 +5,7 @@ from telegram import Update
 from telegram.ext import ApplicationBuilder, MessageHandler, filters, ContextTypes
 
 BOT_TOKEN = '8063798457:AAHqD4Sc6FcPJ646g0PzUThORN7BWvpJ0Lg'
-SERVER_URL = 'https://yourappname.onrender.com'  # <-- replace after deployment
+SERVER_URL = 'https://mystream-bot.onrender.com'  # <-- replace after deployment
 
 async def handle_video(update: Update, context: ContextTypes.DEFAULT_TYPE):
     file = update.message.video or update.message.document
